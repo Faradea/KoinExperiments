@@ -1,5 +1,6 @@
 package com.macgavrina.koinexperiments
 
+import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         Log.d("AppLogs", firstPresenter.sayHello())
+
     }
 
     fun displayToast() {
